@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_select_country_pop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/view_select_country_pop_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <com.example.zhangzk.teststickyrecyclerview.view.SideBar
+            android:id="@+id/view_select_country_pop_sidebar"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="3dp"/>
+    </FrameLayout>
+
+</LinearLayout>
